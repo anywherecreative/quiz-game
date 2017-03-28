@@ -1,0 +1,42 @@
+BODY {
+    background-image: url("images/bird.jpg");
+    background-size: cover;
+  }
+  H2 {
+    /*font-size:20px;*/
+    font-size:100%;
+    font-weight: normal;
+  }
+  .quiz-types IMG {
+    max-width:90%;
+  }
+  .content {
+    background:#fff;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius:10px;
+
+    #answers {
+      list-style:none;
+      margin:0;
+      padding:0;
+
+      LI {
+        border:1px #0000cc solid;
+        padding:10px;
+        margin:5px 0;
+        font-size:16pt;
+        text-align:center;
+        background:lightblue;
+        cursor: pointer;
+
+        &:hover {
+          background:#8888cc;
+        }
+      }
+    }
+  }
+
+  #question, #answers, #result {
+    display:none;
+  }
