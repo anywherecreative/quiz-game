@@ -2,6 +2,9 @@ BODY {
     background-image: url("images/bird.jpg");
     background-size: cover;
   }
+  H1 {
+    font-size:16pt;
+  }
   H2 {
     /*font-size:20px;*/
     font-size:100%;
@@ -15,7 +18,19 @@ BODY {
     padding:10px;
     box-sizing: border-box;
     border-radius:10px;
-
+    #question, #intro P, #result P {
+      border:1px #404040 solid;
+      background:#e0e0e0;
+      border-radius:3px;
+      text-align:center;
+      font-size:14pt;
+      padding:15px;
+    }
+    BUTTON {
+      display:block;
+      margin:10px auto;
+      font-size:14pt;
+    }
     #answers {
       list-style:none;
       margin:0;
